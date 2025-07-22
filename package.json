@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/main.js",
   "scripts": {
-    "start": "serve public -l 5000",
+    "start": "serve public -l 3000",
     "build": "browserify src/main.js -o public/bundle.js",
     "watch": "watchify src/main.js -o public/bundle.js -v",
     "dev": "run-p watch start"

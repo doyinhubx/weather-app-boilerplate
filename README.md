@@ -58,8 +58,8 @@ weather-app/
 
 ```bash
 # 1. Clone the Repo
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
+git clone https://github.com/your-username/weather-app-boilerplate.git
+cd weather-app-boilerplate
 
 # 2. Install Dependencies
 npm install
@@ -67,7 +67,7 @@ npm install
 # 3. Run in Dev Mode
 npm run dev
 ```
-Runs the backend on http://localhost:5000
+Runs the backend on http://localhost:3000
 
 Watches for changes in `main.js` and rebuilds `bundle.js`
 
