@@ -1,11 +1,20 @@
 {
-  "name": "011_01_04_javascriptweatherapp",
+  "name": "javascriptweatherapp",
   "version": "1.0.0",
   "main": "src/main.js",
-  "type": "commonjs",
   "scripts": {
-    "start": "serve public",
-    "build": "browserify src/main.js -o public/bundle.js"
+  "start": "node server.js",
+  "build": "browserify src/main.js -o public/bundle.js",
+  "watch": "watchify src/main.js -o public/bundle.js -v",
+  "dev": "run-p watch start"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "browserify": "^17.0.1",
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
+
+
